@@ -14,7 +14,15 @@ class _TextAnimationScreenState extends State<TextAnimationScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Text("alirezaBahi"),
+        child: AnimatedDefaultTextStyle(
+          child: Text("AlirezaBashi"),
+          style: TextStyle(
+            fontSize: 30,
+            color: Colors.blue,
+            fontWeight: FontWeight.bold,
+          ),
+          duration: Duration(seconds: 1),
+        ),
       ),
     );
   }
