@@ -23,7 +23,7 @@ class _ScaleAnimationScreenState extends State<ScaleAnimationScreen> {
           child: GestureDetector(
             onTap: () {
               setState(() {
-                ++scale;
+                scale += 0.5;
               });
             },
             child: SizedBox(
