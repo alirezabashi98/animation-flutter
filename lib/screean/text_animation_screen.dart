@@ -15,7 +15,10 @@ class _TextAnimationScreenState extends State<TextAnimationScreen> {
     return Scaffold(
       body: Center(
         child: AnimatedDefaultTextStyle(
-          child: Text("AlirezaBashi"),
+          child: Text(
+            "AlirezaBashi",
+            style: TextStyle(fontSize: 18),
+          ),
           style: TextStyle(
             fontSize: 30,
             color: Colors.blue,
